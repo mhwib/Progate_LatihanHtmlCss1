@@ -16,6 +16,7 @@ input,
 div {
   margin: 0;
   padding: 0;
+  /*box-sizing: border-box;*/
   /*border: solid;*/
 }
 
@@ -43,7 +44,7 @@ header {
   margin: 20px 20px 20px 40px;
 }
 
-.top-main {
+main {
   margin: 100px 80px;
 }
 
@@ -64,11 +65,12 @@ h3 {
   font-size: 28px;
   border-bottom: solid 2px #dee7ec;
   padding-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .content {
   height: 500px;
-  margin: 100px 80px;
+  margin-top: 100px;
 }
 
 .content-item {
@@ -76,7 +78,27 @@ h3 {
   margin: 50px 40px 0 0;
 }
 
-p {
+.content-item p {
   font-size: 24px;
   margin-top: 30px;
+}
+
+.contact-form {
+  ;
+  margin-top: 100px;
+}
+
+input,
+textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: solid 1px #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
 }
