@@ -42,3 +42,20 @@ header {
   float: left;
   margin: 20px 20px 20px 40px;
 }
+
+.top-main {
+  margin: 100px 80px;
+}
+
+h1 {
+  font-size: 140px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+span {
+  color: #ff4a4a;
+}
