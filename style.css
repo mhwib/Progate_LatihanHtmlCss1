@@ -59,3 +59,24 @@ h2 {
 span {
   color: #ff4a4a;
 }
+
+h3 {
+  font-size: 28px;
+  border-bottom: solid 2px #dee7ec;
+  padding-bottom: 15px;
+}
+
+.content {
+  height: 500px;
+  margin: 100px 80px;
+}
+
+.content-item {
+  float: left;
+  margin: 50px 40px 0 0;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 30px;
+}
